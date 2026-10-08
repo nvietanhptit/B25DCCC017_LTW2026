@@ -1,0 +1,80 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+.stats-box {
+  background: #f0f8ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.form-container {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+.input-group input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.btn-add {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.error-msg {
+  color: red;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.filter-container {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+.filter-container button {
+  padding: 8px 15px;
+  cursor: pointer;
+  border: 1px solid #007bff;
+  background: white;
+  color: #007bff;
+  border-radius: 4px;
+}
+.filter-container button.active {
+  background: #007bff;
+  color: white;
+}
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+.student-table th {
+  background-color: #f2f2f2;
+}
+.btn-delete {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
