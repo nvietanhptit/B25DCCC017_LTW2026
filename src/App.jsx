@@ -36,8 +36,11 @@ const App = () => {
       return;
     }
 
+    const newId =
+      students.length > 0 ? Math.max(...students.map((s) => s.id)) + 1 : 1;
+
     const newStudent = {
-      id: Date.now(),
+      id: newId,
       name,
       score: numScore,
       class: className,
